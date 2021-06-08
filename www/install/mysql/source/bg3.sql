@@ -209,4 +209,4 @@ INSERT INTO `ps_role` (`roleid`, `uniqueid`, `name`, `team`)
         (9, 'native', 'Native Warrior', NULL),
         (10, 'continental_officer', 'Continental Officer', NULL),
         (11, 'minuteman', 'Minuteman', NULL),
-        (11, 'french_grenadier', 'French Grenadier', NULL);
+        (12, 'french_grenadier', 'French Grenadier', NULL);
