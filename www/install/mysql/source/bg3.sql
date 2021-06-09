@@ -108,9 +108,7 @@ INSERT INTO `ps_config_awards` (`id`, `enabled`, `idx`, `type`, `negative`, `cla
         (13,1,30,'player',0,'','Most Bonus Points','','{$player.link} achieved the most bonus points ({$award.value})','{$totalbonus}','desc','',25,'commify',NULL,NULL,1,'Player that has achieved the most bonus points.'),
         (22,1,140,'player',0,'','Most Flags Captured','','{$player.link} has captured the most flags ({$award.value})','{$flagscaptured}','desc','',10,'commify','source','bg3',1,'Player has captured the most flags.'),
         (23,1,50,'player',1,'','Worst Teammate','','{$player.link} has killed the most teammates ({$award.value})','{$ffkills}','desc','',0,'commify',NULL,NULL,1,'Player with the most friendly fire kills (ie: Worst Teammate)'),
-        (25,1,60,'player',1,'','Worst Team Kill Percentage','','{$player.link} has the highest team kill percentage ({$award.value})','{$ffkills} / {$kills} * 100','desc','',0,'%0.02f%%',NULL,NULL,1,'Player with the highest team kill percentage.'),
-        (28,1,160,'player',0,'','Most Flags Defended','','{$player.link} has defended the most flags ({$award.value})','{$flagsdefended}','desc','',1,'%s','source','bg3',1,'Player who has defended (or returned) the most flags from the enemy.'),
-        (30,1,300,'player',0,'','Most Map Objectives Completed','','{$player.link} has completed the most map objectives ({$award.value}).','{$capturepoint}','desc','',10,'commify','source','bg3',1,'Player who has completed the most map objectives.');
+        (25,1,60,'player',1,'','Worst Team Kill Percentage','','{$player.link} has the highest team kill percentage ({$award.value})','{$ffkills} / {$kills} * 100','desc','',0,'%0.02f%%',NULL,NULL,1,'Player with the highest team kill percentage.');
 
 INSERT INTO `ps_config_overlays` (`id`, `gametype`, `modtype`, `map`, `minx`, `miny`, `maxx`, `maxy`, `width`, `height`, `flipv`, `fliph`, `rotate`) 
     VALUES 
