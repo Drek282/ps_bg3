@@ -96,7 +96,8 @@ INSERT INTO `ps_config_events` (`id`, `gametype`, `modtype`, `eventname`, `alias
 INSERT INTO `ps_config_plrbonuses` (`id`, `eventname`, `enactor`, `enactor_team`, `victim`, `victim_team`, `description`, `gametype`, `modtype`) 
     VALUES 
         (27,'round_win',0,50,0,-50,'TEAM event that fires when a round ends and a team won','source','bg3'),
-        (34,'ffkill',-10,0,0,0,'when a player kills a team mate','','');
+        (34,'ffkill',-10,0,0,0,'when a player kills a team mate','',''),
+        (38,'flag_captured',5,0,0,0,'When a player captures a flag','source','bg3');
 
 INSERT INTO `ps_config_awards` (`id`, `enabled`, `idx`, `type`, `negative`, `class`, `name`, `groupname`, `phrase`, `expr`, `order`, `where`, `limit`, `format`, `gametype`, `modtype`, `rankedonly`, `description`) 
     VALUES 
