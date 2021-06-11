@@ -173,7 +173,7 @@ INSERT INTO `ps_weapon` (`weaponid`, `uniqueid`, `name`, `skillweight`, `class`)
         (26, 'longpattern', 'Brown Bess Long Pattern', 1, 'Rifle'),
         (27, 'pistol_a', 'Holster Pistol', 1.25, 'Pistol'),
         (28, 'american_brownbess', 'American Brown Bess', 1, 'Rifle'),
-        (29, 'fowler', 'Fowler', 0.9, 'Shotgun'),
+        (29, 'fowler', 'Fowler', 0.9, 'Rifle'),
         (30, 'brownbess_carbine', 'Brown Bess Carbine', 1, 'Carbine'),
         (31, 'pennsylvania', 'Pennsylvania Longrifle', 1.15, 'Rifle'),
         (32, 'hirschf', 'Hirschfanger', 0.95, 'Sword'),
