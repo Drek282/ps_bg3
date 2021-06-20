@@ -209,3 +209,7 @@ INSERT INTO `ps_role` (`roleid`, `uniqueid`, `name`, `team`)
         (10, 'continental_officer', 'Continental Officer', NULL),
         (11, 'minuteman', 'Minuteman', NULL),
         (12, 'french_grenadier', 'French Grenadier', NULL);
+        
+INSERT INTO `ps_config` (`id`, `conftype`, `section`, `var`, `value`, `label`, `type`, `locked`, `verifycodes`, `options`, `help`) 
+    VALUES 
+        (1,'main',NULL,'meta_keywords','PsychoStats Game Server Player Statistics Battle Grounds III BG3 Valve','Site HTML Meta Key Words','text',0,'','','These are the HTML meta key words for your PsychoStats.  They are used by search engines to provide search results.');
