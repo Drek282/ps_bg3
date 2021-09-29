@@ -184,7 +184,7 @@ INSERT INTO `ps_weapon` (`weaponid`, `uniqueid`, `name`, `skillweight`, `class`)
         (37, 'revolutionnaire', 'Revolutionnaire', 1, 'Rifle'),
         (38, 'swivel_gun', 'Swivel Gun', 2, 'Artillery'),
         (39, 'grenade_frag', 'Grenade', 1.25, 'Grenade'),
-        (40, 'light_model_charleville', 'Charleville Model 1766', 1, 'Rifle'),
+        (40, 'light_model_charleville', 'Light Model Charleville', 1, 'Rifle'),
         (41, 'light_model_charleville_bayonet', 'Light Model Charleville Bayonet', 1, 'Bayonet'),
         (42, 'french_carbine', 'French Carbine', 1, 'Carbine'),
         (43, 'rapier', 'Rapier', 1.1, 'Sword'),
