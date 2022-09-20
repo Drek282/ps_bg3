@@ -56,7 +56,7 @@ $db->config(array(
 	'dbtblprefix' => $dbtblprefix
 ));
 $db->clear_errors();
-$db->connect();
+@$db->connect();
 
 if (!$db->connected) {
 	if ($ajax_request) {
