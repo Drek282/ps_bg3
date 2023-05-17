@@ -193,7 +193,9 @@ INSERT INTO `ps_weapon` (`weaponid`, `uniqueid`, `name`, `skillweight`, `class`)
         (46, 'blunderbuss', 'Blunderbuss', 0.9, 'Shotgun'),
         (47, 'oldpattern', 'Old Pattern Musket', 1, 'Rifle'),
         (48, 'artillery_common_carbine_bayonet', 'Artlillery Common Bayonet', 1, 'Bayonet'),
-        (49, 'serjeant_fusil', 'Serjeant Fusil', 1, 'Rifle');
+        (49, 'serjeant_fusil', 'Serjeant Fusil', 1, 'Rifle'),
+        (50, 'trade_musket', 'Northwest Gun', 1, 'Rifle'),
+        (51, 'gunstock', 'Rifle Butt', 1.2, 'Melee');
 
 INSERT INTO `ps_role` (`roleid`, `uniqueid`, `name`, `team`) 
     VALUES 
