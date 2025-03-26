@@ -19,3 +19,4 @@ Version 3.2.8n (in progress)
 * [Removed] Mod specific theme.
 * [Added] Mod logo.
 * [Changed] Preparing for automated upgrades.
+* [Fixed] Get challenge from SRCDS.
